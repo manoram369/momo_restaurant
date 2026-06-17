@@ -1,0 +1,21 @@
+2026-06-09 16:51:38,956 - ERROR - name 'p' is not defined
+Traceback (most recent call last):
+  File "E:\K8python\K8\restaurant\core\views.py", line 22, in index
+    p
+NameError: name 'p' is not defined
+2026-06-09 16:51:39,221 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\K8python\K8\restEnv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\K8python\K8\restEnv\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\K8python\K8\restaurant\core\views.py", line 33, in index
+    'momo':momo
+           ^^^^
+UnboundLocalError: cannot access local variable 'momo' where it is not associated with a value
+2026-06-09 16:51:39,226 - ERROR - "GET / HTTP/1.1" 500 69332
+2026-06-09 16:51:58,072 - ERROR - name 'p' is not defined
+Traceback (most recent call last):
+  File "E:\K8python\K8\restaurant\core\views.py", line 22, in index
+    p
+NameError: name 'p' is not defined
